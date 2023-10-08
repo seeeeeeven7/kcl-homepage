@@ -1,0 +1,775 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+    <title>The Knowledge Computing Lab 知识计算实验室</title>
+    <link href="https://se.pku.edu.cn/docs/2020-09/20200915182220784581.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/docs/2020-06/20200601131620322522.css" />
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="title">
+                <img class="badge" src="/images/content/2020-05/20200507012922154227.png" />
+                <div>
+                    <div class="text">
+                        <a>The Knowledge Computing Lab</a>
+                    </div>
+                    <div class="subtext">
+                        <a>The National Engineering Research Center for Software Engineering</a>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="#introduction">INTRODUCTION</a></li>
+                <li><a href="#papers">PAPERS</a></li>
+                <li><a href="#awards">AWARDS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#people">PEOPLE</a></li>
+            </ul>
+        </div>
+        <div class="title-mobile">
+            <div class="title">
+                <img class="badge" src="/images/content/2020-05/20200507012922154227.png" />
+                <div class="text no-top">
+                    <div class="main">北大知识计算实验室</div>
+                    <div class="sub">The Knowledge Computing Lab</div>
+                </div>
+                <div class="text top">
+                    <div class="main">The Knowledge Computing Lab 知识计算实验室</div>
+                    <div class="sub">at The National Engineering Research Center for Software Engineering</div>
+                </div>
+            </div>
+            <div class="nav-container">
+                <div class="nav-button" id="mobile-nav-button" onclick="toggle()">
+                    <img class="icon no-top" src="https://se.pku.edu.cn/images/content/2021-01/20210131142646818552.png">
+                    <img class="icon top" src="https://se.pku.edu.cn/images/content/2021-01/20210131142646817482.png">
+                </div>
+                <ul class="nav-list" id="mobile-nav-list">
+                    <li><a onclick="toggle()" href="#introduction">Introduction</a></li>
+                    <li><a onclick="toggle()" href="#papers">Papers</a></li>
+                    <li><a onclick="toggle()" href="#awards">Awards</a></li>
+                    <li><a onclick="toggle()" href="#projects">Projects</a></li>
+                    <li><a onclick="toggle()" href="#people">People</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="background">
+            <div class="background-round" style="width: 785px; height: 785px; right: -100px; top: -330px;"></div>
+            <div class="background-round" style="width: 315px; height: 315px; left: -180px; top: 660px;"></div>
+            <div class="background-round" style="width: 607px; height: 607px; right: -360px; top: 1120px;"></div>
+            <div class="background-round" style="width: 715px; height: 715px; left: -180px; top: 1520px;"></div>
+            <div class="background-round" style="width: 375px; height: 375px; right: -110px; top: 2600px;"></div>
+            <div class="background-round" style="width: 607px; height: 607px; left: -260px; top: 3290px;"></div>
+            <div class="background-round" style="width: 845px; height: 845px; right: -320px; top: 4840px;"></div>
+            <!-- <div class="background-round" style="width: 427px; height: 427px; left: -260px; top: 6390px;"></div> -->
+        </div>
+        <a class="target-fix" id="introduction" name="introduction"></a>
+        <div class="introduction">
+            <h1>Introduction</h1>
+            <div class="photo">
+                <img src="/images/content/2020-05/20200507185349480209.jpg" />
+            </div>
+            <div class="aphorism">Welcome to The Knowledge Computing Lab (KCL) of Peking University, a center of excellence for knowledge computing research and practice established in 2017.
+            </div>
+            <div class="text">
+                <p><span style="font-weight:bold">The Knowledge Computing Lab</span> at Peking University is part of National Engineering and Research Center for Software Engineering, where faculties, students and software engineers work together on advanced algorithms towards natural language understanding and programming language comprehension. Our research topics are centered on large language models (LLMs), including but not limited to LLM pre-training and fine-tuning, Code LLM, multi-modal LLM, LLM evaluation, and LLM applications. We have won more than 10 awards in national and international AI competitions. We distinguish ourselves as being practice-oriented, as our researches have been applied in large-scale real-world projects in areas such as enterprise intelligence, medical AI, petition, legal system, and human resources.</p>
+                <p><span style="font-weight:bold">The National Engineering Research Center for Software
+                        Engineering</span> was established in July 1996. Professor YANG Fuqing, Academician of the Chinese Academy of Sciences, served as the founding director. As a national research institution, the center focuses on technological innovation and has successfully built SDKs and supporting tools for industrial software development and production. It has established itself as a pioneer in many emerging but strategic areas such as government big data, software and system security, human-machine integration, intelligent sensing computing, smart cities, and blockchain.</p>
+            </div>
+            <div class="wanted">
+                <div class="wanted-container">
+                    <img class="wanted-icon" src="/images/content/2020-05/20200507185349480195.png" />
+                    <p>We are looking for highly self-motivated students to work with us as PhD candidates (several positions open for 2024 Fall) or for Master's Degree. If you share our vision and are interested in working with us, please send your resume to <a>wye#pku.edu.cn</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <a class="target-fix" id="papers" name="papers"></a>
+        <div class="papers">
+            <h1>Papers</h1>
+            <div class="table-container">
+                <div id="papers-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Title</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>01</td><td>Dingyao Yu, Kaitao Song, Peiling Lu, Tianyu He, Xu Tan, Wei Ye*, Shikun Zhang*, Jiang Bian. MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models. EMNLP'23 (System Demonstrations)</td></tr>
+<tr><td>02</td><td>Chaoya Jiang, Haiyang Xu, Wei Ye*, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Fei Huang, Ji Zhang. COPA: Efficient Vision-Language Pre-training through Collaborative Object- and Patch-Text Alignment. MM'23 (CCF Rank A, Full Paper) </td></tr>
+<tr><td>03</td><td>Chaoya Jiang, Haiyang Xu, Wei Ye*, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Fei Huang, Songfang Huang. BUS:Efficient and Effective Vision-language Pretraining with Bottom-Up Patch Summarization. ICCV'23 (CCF Rank A, Full Paper)</td></tr>
+<tr><td>04</td><td>Yidong Wang, Zhuohao Yu, Jindong Wang*, Qiang Heng, Hao Chen, Wei Ye*, Rui Xie, Xing Xie, Shikun Zhang*. Exploring Vision-Language Models for Imbalanced Learning. IJCV (CCF Rank A Journal)</td></tr>
+<tr><td>05</td><td>Chaoya Jiang, Wei Ye*, Haiyang Xu, Shikun Zhang, Songfang Huang and Fei Huang. Vision Lanauge Pre-training by Contrastive Learning with Cross-Modal Similarity Regulation. ACL’23 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>06</td><td>Zile Qiao, Wei Ye, Dingyao Yu, Tong Mo, Weiping Li and Shikun Zhang. Improving Knowledge Graph Completion with Generative Hard Negative Mining. ACL’23 (Findings)</td></tr>
+<tr style="display: none;"><td>07</td><td>Chaoya Jiang, Rui Xie, Wei Ye*, Jinan Sun and Shikun Zhang. Exploiting Pseudo Image Captions for Multimodal Summarization. ACL’23 (Findings)</td></tr>
+<tr style="display: none;"><td>08</td><td>Jindong Wang, Xixu Hu, Wenxin Hou, Hao Chen, Runkai Zheng, Yidong Wang, Linyi Yang, Wei Ye, Haojun Huang, Xiubo Geng, Binxing Jiao, Yue Zhang, Xing Xie. On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective. ICLR'23 (Workshop on Trustworthy and Reliable Large-Scale Machine Learning Models)</td></tr>
+<tr style="display: none;"><td>09</td><td>Bo Li, Dingyao Yu, Wei Ye*, Jinglei Zhang, Shikun Zhang*. Sequence Generation with Label Augmentation for Relation Extraction. AAAI'23 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>10</td><td>Bo Li, Wei Ye*, Jinglei Zhang, Shikun Zhang*. Reviewing Labels: Label Graph Network with Top-k Prediction Set for Relation Extraction. AAAI'23 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>11</td><td>Xi Xiangyu, Jianwei Lv, Shuaipeng Liu, Wei Ye*, Fan Yang and Guanglu Wan. MUSIED: A Benchmark for Event Detection from Multi-Source Heterogeneous Informal Texts. EMNLP'22 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>12</td><td>Chaoya Jiang, Haiyang Xu, Chenliang Li, Ming Yan, Wei Ye*, Shikun Zhang*, Bin Bi and Songfang Huang. TRIPS:Efficient Vision-and-Language Pre-training with Text-relevant Patch Selection. EMNLP'22 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>13</td><td>Yidong Wang, Hao Chen, Yue Fan, Wang SUN, Ran Tao, Wenxin Hou, Renjie Wang, Linyi Yang, Zhi Zhou, Lan-Zhe Guo, Heli Qi, Zhen Wu, Yu-Feng Li, Satoshi Nakamura, Wei Ye, Marios Savvides, Bhiksha Raj, Takahiro Shinozaki, Bernt Schiele, Jindong Wang, Xing Xie, Yue Zhang. USB: A Unified Semi-supervised Learning Benchmark, NeurIPS'22 (CCF Rank A, Datasets and Benchmarks Track)</td></tr>
+<tr style="display: none;"><td>14</td><td>Botao Yu, Peiling Lu, Rui Wang, Wei Hu, Xu Tan, Wei Ye, Shikun Zhang, Tao Qin, Tie-Yan Liu. Museformer: Transformer with Fine- and Coarse-Grained Attention for Music Generation. NeurIPS'22 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>15</td><td>Peiyang Liu, Xi Xiangyu, Wei Ye* and Shikun Zhang. Label Smoothing for Text Mining, COLING'22 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>16</td><td>Zile Qiao, Wei Ye*, Tong Zhang, Tong Mo, Weiping Li and Shikun Zhang. Exploiting Hybrid Semantics of Relation Paths for Multi-hop Question Answering Over Knowledge Graphs, COLING'22 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>17</td><td>Yinyi Wei, Shuaipeng Liu, Jianwei Lv, Xi Xiangyu, Wei Ye*, Tong Mo, Fan Yang and Guanglu Wan. DESED: Dialogue-based Explanation for Sentence-level Event Detection, COLING'22 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>18</td><td>Rui Xie, Tianxiang Hu, Wei Ye*, Shikun Zhang*. Low-Resources Project-Specific Code Summarization, ASE'22 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>19</td><td>Xiangyu Xi, Chenxu Lv, Yuncheng Hua, Wei Ye*, Chaobo Sun, Shuaipeng Liu, Fan Yang, Guanglu Wan. A Low-Cost, Controllable and Interpretable Task-Oriented Chatbot: With Real-World After-Sale Services as Example. SIGIR'22 (Industry Track)</td></tr>
+<tr style="display: none;"><td>20</td><td>Zheyu Ying, Xueyang Liu*, Jinglei Zhang, Rui Xie, Guochang Wen, Xiongfeng Xiao, Shikun Zhang. 3Rs:Data Augmentation Techniques Using Document Contexts For Low-Resource Chinese Named Entity Recognition. IJCNN'22(CCF Rank C,full paper) </td></tr>
+<tr style="display: none;"><td>21</td><td>Tong Zhang, Wei Ye*, Baosong Yang, Long Zhang, Xingzhang Ren, Dayiheng Liu, Jinan Sun*, Shikun Zhang, Haibo Zhang, Wen Zhao. Frequency-Aware Contrastive Learning for Neural Machine Translation. AAAI'22 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>22</td><td>Peiyang Liu, Xi Wang, Sen Wang, Wei Ye*, Xiangyu Xi and Shikun Zhang. Improving Embedding-based Large-scale Retrieval via Label Enhancement. In EMNLP'21 (Findings) </td></tr>
+<tr style="display: none;"><td>23</td><td>Peiyang Liu, Xi Wang, Lin Wang, Wei Ye*, Xiangyu Xi and Shikun Zhang. Distilling Knowledge from BERT into Simple Fully Connected Neural Networks for Efficient Vertical Retrieval. In CIKM'21 (CCF Rank B, Applied Paper) </td></tr>
+<tr style="display: none;"><td>24</td><td>Xi Xiangyu, Wei Ye*, Shikun Zhang*, Quanxiu Wang, Huixing Jiang and Wei Wu. Capturing Event Argument Interaction via A Bi-Directional Entity-Level Recurrent Decoder. In ACL'21 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>25</td><td>Tong Zhang, Long Zhang, Wei Ye*, Bo Li, Jinan Sun, Shikun Zhang*, Xiaoyu Zhu and Wen Zhao. Point, Disambiguate and Copy: Incorporating Bilingual Dictionaries for Neural Machine Translation. In ACL'21 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>26</td><td>Luyao Ma, Yating Zhang, Tianyi Wang, Xiaozhong Liu, Wei Ye*, Changlong Sun and Shikun Zhang. Legal Judgment Prediction with Multi-Stage Case Representation Learning in the Real Court Setting. In SIGIR'21. (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>27</td><td>Long Zhang, Tong Zhang, Haibo Zhang, Baosong Yang, Wei Ye* and Shikun Zhang. Multi-Hop Transformer for Document-Level Machine Translation. In NAACL'21. (CCF Rank C, Full Paper)</td></tr>
+<tr style="display: none;"><td>28</td><td>Peiyang Liu, Sen Wang, Xi Wang, Wei Ye*, Shikun Zhang, QuadrupletBERT: An Efﬁcient Model For Embedding-Based Large-Scale Retrieval. In NAACL'21.  (CCF Rank C, Short Paper)</td></tr>
+<tr style="display: none;"><td>29</td><td>Rui Xie, Wei Ye*, Jinan Sun, Shikun Zhang. Exploiting Method Names to Improve Code Summarization: A Deliberation Multi-Task Learning Approach, ICPC'21 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>30</td><td>Xiangyu Xi, Wei Ye*, Tong Zhang, Quanxiu Wang, Shikun Zhang, Huixing Jiang, Wei Wu. Improve Event Detection by Exploiting Label Hierarchy. In ICASSP'21 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>31</td><td>Tianxiang Hu, Jingxi Liang, Wei Ye*, Shikun Zhang. Keyword-Aware Encoder for Abstractive Text Summarization. In DASFAA’21 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>32</td><td>Bo Li, Wei Ye*, Canming Huang and Shikun Zhang. Multi-view Inference for Relation Extraction with Uncertain Knowledge. In AAAI'21 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>33</td><td>Zhonghao Sheng, Kaitao Song, Xu Tan, Yi Ren, Wei Ye*, Shikun Zhang and Tao Qin. Automatic Song Writing with Pre-training and Alignment Constraint. In AAAI'21 (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>34</td><td>Shikun Zhang, Rui Xie, Wei Ye*, Long Chen. Keyword-Based Code Auto-Summarization. Journal of Computer Research and Development, 2020. (CCF Chinese Rank A)</td></tr>
+<tr style="display: none;"><td>35</td><td>Haixin Wang, Tianhao Zhang, Muzhi Yu, Jinan Sun, Wei Ye, Chen Wang, Shikun Zhang. Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework. In ECCV'20. (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>36</td><td>Bo Li, Wei Ye*, Zhonghao Sheng, Rui Xie, Xiangyu Xi and Shikun Zhang. Graph Enhanced Dual Attention Network for Document-Level Relation Extraction. In COLING'20. (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>37</td><td>Wei Ye, Rui Xie, Jinglei Zhang, Tianxiang Hu, Xiaoying Wang, Shikun Zhang. Leveraging Code Generation to Improve Code Retrieval and Summarization via Dual Learning. In WWW'20. (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>38</td><td>Jinglei Zhang, Rui Xie, Wei Ye*, Yuhan Zhang, Shikun Zhang. Exploiting Code Knowledge Graph for Bug Localization via Bi-directional Attention. In ICPC'20. (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>39</td><td>Tong Zhang, Wei Ye*, Xiangyu Xi, Long Zhang, Shikun Zhang, Wen Zhao. Leveraging Human Prior Knowledge to Learn Sense Representations. in ECAI'20. (CCF B, Full Paper)</td></tr>
+<tr style="display: none;"><td>40</td><td>Haixin Wang, Xingzhang Ren, Jinan Sun, Wei Ye,  Long Chen, Muzhi Yu, Shikun Zhang. Deep Dynamic Boosted Forest. In ACML'20. (CCF Rank C, Full Paper)</td></tr>
+<tr style="display: none;"><td>41</td><td>Bo Li, Zhonghao Sheng, Wei Ye*, Jinglei Zhang, Kai Liu and Shikun Zhang. Sliding Hierarchical Recurrent Neural Networks for Sequence Classification. In IJCNN'20. (CCF Rank C, Full Paper)</td></tr>
+<tr style="display: none;"><td>42</td><td>Peiyang Liu, Wei Ye*, Xiangyu Xi, Tong Wang and Shikun Zhang. Not All Synonyms Are Created Equal: Incorporating Similarity of Synonyms to Enhance Word Embeddings. In IJCNN'20. (CCF Rank C, Full Paper)</td></tr>
+<tr style="display: none;"><td>43</td><td>Wei Ye, Bo Li, Rui Xie, Zhonghao Sheng, Long Chen and Shikun Zhang. Exploiting Entity BIO Tag Embeddings and Multi-task Learning for Relation Extraction with Imbalanced Data. In ACL'19. (CCF Rank A, Full Paper)</td></tr>
+<tr style="display: none;"><td>44</td><td>Bo Li, Zehua Cheng, Zhenghua Xu, Wei Ye*, Thomas Lukasiewicz and Shikun Zhang. Long Text Analysis Using Sliced Recurrent Neural Network with Breaking Point Information Enrichment. In ICASSP'19 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>45</td><td>Rui Xie, Long Chen, Wei Ye*, Zhiyu Li, Tianxiang Hu, Dongdong Du and Shikun Zhang. DeepLink: A Code Knowledge Graph Based Deep Learning Approach for Issue-Commit Link Recovery. In SANER'19 (CCF Rank B, Full Paper)</td></tr>
+<tr style="display: none;"><td>46</td><td>Long Chen, Wei Ye* and Shikun Zhang. Capturing Source Code Semantics via Tree-based Convolution over API-enhanced AST. ACM International Conference on Computing Frontiers, 2019 (CCF Rank C, Full Paper)</td></tr>
+<tr style="display: none;"><td>47</td><td>Luyao Ma, Long Zhang, Wei Ye and Wenhui Hu. PKUSE at SemEval-2019 Task 3: Emotion Detection with Emotion-Oriented Neural Attention Network. In Proceedings of the 13th International Workshop on Semantic Evaluation(SemEval), 2019</td></tr>
+<tr style="display: none;"><td>48</td><td>Xiangyu Xi, Tong Zhang, Wei Ye*, Jinglei Zhang, Rui Xie and Shikun Zhang. A Hybrid Character Representation for Chinese Event Detection. In IJCNN'19 (CCF Rank C, Full Paper)</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="more">
+                    <!-- <i class="down-arrow" [ngClass]="{'active': attr.order === 2}"></i> -->
+                    <div class="button" id="papers-show" onclick="showPapers()">
+                        View More<i class="down-arrow"></i>
+                    </div>
+                    <div class="button" id="papers-hide" onclick="hidePapers()">
+                        View Less<i class="up-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="target-fix" id="awards" name="awards"></a>
+        <div class="awards">
+            <h1>Awards</h1>
+            <div class="table-container">
+                <div id="awards-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>No.</th>
+                                <th>Rank</th>
+                                <th>Award Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td><span>2</span>/1029</td>
+                                <td>Tianchi Big Data Competition Platform, National Metabolic Management Center
+                                    Medical Knowledge Graph Challenge, 2019.</td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td><span>1</span>/1124</td>
+                                <td>Tianchi Big Data Competition Platform: Alibaba Security Algorithm Challenge, 2017.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>03</td>
+                                <td><span>3</span>/2754</td>
+                                <td>China Computer Federation(CCF) Big Data & Computing Intelligence Contest
+                                    2019(BDCI), Sentiment Analysis Of Internet News, 2019.</td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td><span>2</span>/335</td>
+                                <td>Beijing Campus University Big Data Competition 2018, Campus Traffic Forecast,
+                                    2018.</td>
+                            </tr>
+                            <tr>
+                                <td>05</td>
+                                <td><span>3</span>/622</td>
+                                <td>Tianchi Big Data Competition Platform, The 3rd Alibaba Cloud Security
+                                    Algorithm Challenge, 2018.</td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>06</td>
+                                <td><span>2</span>/576</td>
+                                <td>Ppdai Mirror Cup: Text Matching Challenge, 2018.</td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>07</td>
+                                <td><span>3</span>/4878</td>
+                                <td>Daguan Technology Co., Ltd Daguan Cup, Long Sentence Classification Challenge, 2018.</td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>08</td>
+                                <td><span>3</span>/1027</td>
+                                <td>CIKM AnalytiCup 2018, Cross-Language Short Text Matching, 2018.</td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td>09</td>
+                                <td><span>3</span>/959</td>
+                                <td>Tianchi Big Data Competition Platform, The 2nd Alibaba Cloud Security
+                                    Algorithm Challeng, 2017.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="more">
+                    <!-- <i class="down-arrow" [ngClass]="{'active': attr.order === 2}"></i> -->
+                    <div class="button" id="awards-show" onclick="showAwards()">
+                        View More<i class="down-arrow"></i>
+                    </div>
+                    <div class="button" id="awards-hide" onclick="hideAwards()">
+                        View Less<i class="up-arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="target-fix" id="projects" name="projects"></a>
+        <div class="projects">
+            <h1>Projects</h1>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Time</th>
+                            <th>Project Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>2023.06 - 2025.05</td>
+                            <td>A National Department. Research on Evaluation Techniques for the Intelligence Level of Domain-specific Large Language Models</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>2021.12 - 2024.11</td>
+                            <td>National Key Research And Development Program of China, 2021YFC3340101 (No. 2021YFC3340101) </td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>2021.12 - 2025.11</td>
+                            <td>BIGO Co., Ltd., PKU-BIGO Joint Laboratory of Artificial Intelligence </td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>2019.12 - 2022.11</td>
+                            <td>National Key Research And Development Program of China, Research on the
+                                Sensitive Text and Sensitive Image Monitoring Methods of Internet Cultural Services (No.
+                                2019YFB1405802) </td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>2019.04 - 2024.03</td>
+                            <td>Guoxin Health Insurance Service Group Co., Ltd.,Joint Laboratory of Medical
+                                Artificial Intelligence</td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td>2018.10 - 2021.12</td>
+                            <td>BeidaSoft Co., Ltd., Research and Development of Technologies on Domain
+                                Knowledge Graph Construction and Intelligent Information Retrieval
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="description">In addition to academic research projects, our technology supports a large number of commercial projects in the areas of government big data governance and software quality assurance, with a total value of over 1 billion yuan. Please refer to <a href="http://www.beidasoft.com">www.beidasoft.com</a> for more detail.</div>
+        </div>
+        <a class="target-fix" id="people" name="people"></a>
+        <div class="people">
+            <h1>People</h1>
+            <div class="group" style="margin-top: 40px;">
+                <div class="group-name">Professors</div>
+                <div class="professor">
+                    <div class="avatar">
+                        <img src="/images/content/2020-05/20200507012922151833.jpg" />
+                    </div>
+                    <div class="info">
+                        <div class="name">Shikun Zhang</div>
+                        <div class="title">Researcher, Director of National Engineering Research Center for Software
+                            Engineering</div>
+                        <div class="tags">
+                            <div class="tag">Knowledge Computing</div>
+                            <div class="tag">Software Engineering</div>
+                            <div class="tag">Software Security</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="professor">
+                    <div class="avatar">
+                        <img src="/images/content/2020-05/20200507012922152906.jpg" />
+                    </div>
+                    <div class="info">
+                        <div class="name"><a href="https://se.pku.edu.cn/kcl/weiye">Wei Ye</a></div>
+                        <div class="title">Associate Researcher, Director of Knowledge Computing Lab</div>
+                        <div class="tags">
+                            <div class="tag">Natural Language Processing</div>
+                            <div class="tag">Programming Language Comprehension</div>
+                            <div class="tag">Knowledge Graph</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="professor">
+                    <div class="avatar">
+                        <img src="/images/content/2020-05/20200507012922153181.jpg" />
+                    </div>
+
+                    <div class="info">
+                        <div class="name">Xueyang Liu</div>
+                        <div class="title">Associate Researcher</div>
+                        <div class="tags">
+                            <div class="tag">Knowledge Graph</div>
+                            <div class="tag">Medical Artificial Intelligence</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="professor">
+                    <div class="avatar">
+                        <img src="/images/content/2020-05/20200507012922152054.jpg" />
+                    </div>
+
+                    <div class="info">
+                        <div class="name">Wenhui Hu</div>
+                        <div class="title">Associate Researcher</div>
+                        <div class="tags">
+                            <div class="tag">Knowledge Graph</div>
+                            <div class="tag">Medical Artificial Intelligence</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="group students">
+                <div class="group-name">Post-Doc</div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Rui Xie</div>
+                        <div class="title">Software Engineering & Knowledge Computing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group students">
+                <div class="group-name">PhD Students</div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Fuyao Duan</div>
+                        <div class="title">Software Engineering</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Xiao Deng</div>
+                        <div class="title">Software Engineering</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Zile Qiao</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name"><a href="https://deepblue666.github.io/">Bo Li</a></div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Jinglei Zhang</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Chaoya Jiang</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group students">
+                <div class="group-name">Master's Students</div>
+
+
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Wenjing Yang</div>
+                        <div class="title">Source Code Analysis</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Yang Yang</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Gexiang Fang</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Ruimin Lin</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Tianfan Xu</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Jinghao Wei</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Yue Lu</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Jingxiang Ma</div>
+                        <div class="title">Knowledge Computing</div>
+                    </div>
+                </div>
+
+                
+
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Yuwen Qiao</div>
+                        <div class="title">Software Engineering</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">YiChen Li</div>
+                        <div class="title">Software Engineering</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Feng He</div>
+                        <div class="title">Software Engineering</div>
+                    </div>
+                </div>
+
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name"> Siqi Cai</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name"> Wenjin Yao</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">Zhuohao Yu</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+                <div class="student">
+                    <div class="student-container">
+                        <div class="name">  Xiaotian Ruan</div>
+                        <div class="title">Natural Language Processing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="group graduated-students">
+                <div class="group-name">Alumni</div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Tianxiang Hu</div>
+                        <div class="title">2023 CASIC</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Yongle Wei</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Ce Liu</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Zheyu Ying</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Dingyao Yu</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Guochang Wen</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Hongxiang Chen</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Yang An</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Ziyue Zhang</div>
+                        <div class="title"></div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <div class="name">Tong Zhang</div>
+                        <div class="title">2022 Tencent</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913317269.png" />
+                        <div class="name">ZHANG YUHAN</div>
+                        <div class="title">2021 360</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="" />
+                        <div class="name">XIE RUI</div>
+                        <div class="title">2021 Peking University</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191319536829.png" />
+                        <div class="name">FAN YUANHAO</div>
+                        <div class="title">2021 Meituan</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-12/20201211025847090557.jpg" />
+                        <div class="name">LIU PEIYANG</div>
+                        <div class="title">2020 360</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-12/20201211025847090645.jpg" />
+                        <div class="name">SHENG ZHONGHAO</div>
+                        <div class="title">2020 Baidu</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191319536829.png" />
+                        <div class="name">XI XIANGYU</div>
+                        <div class="title">2020 Meituan</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-12/20201211025352422456.jpg" />
+                        <div class="name">ZHANG LONG</div>
+                        <div class="title">2020 Sougou</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-05/20200507185349482520.jpg" />
+                        <div class="name">MA LUYAO</div>
+                        <div class="title">2020 Alibaba</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-12/20201211024804271153.jpg" />
+                        <div class="name">CHEN LONG</div>
+                        <div class="title">2019 Ding Xiang</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-05/20200507185349482520.jpg" />
+                        <div class="name">REN XINGZHANG</div>
+                        <div class="title">2019 Alibaba</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-05/20200507185349482470.jpg" />
+                        <div class="name">LIAO NINGLIN</div>
+                        <div class="title">2018 CASIC</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913316937.png" />
+                        <div class="name">LUO RUICI</div>
+                        <div class="title">2018 ByteDance</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913316076.png" />
+                        <div class="name">XING LIANG</div>
+                        <div class="title">2017 Tencent</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913316143.png" />
+                        <div class="name">TANG XIAOQING</div>
+                        <div class="title">2017 Run a startup</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913316937.png" />
+                        <div class="name">XU CHEN</div>
+                        <div class="title">2016 ByteDance</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2020-12/20201211025847090645.jpg" />
+                        <div class="name">YANG JUN</div>
+                        <div class="title">2016 Baidu</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114191913317269.png" />
+                        <div class="name">GOU RUI</div>
+                        <div class="title">2014 Bank System</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114192706120581.png" />
+                        <div class="name">HUANG SHUZHI</div>
+                        <div class="title">2014 Google</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114192706120476.jpg" />
+                        <div class="name">LV YIQIANG</div>
+                        <div class="title">2013 ChinaClear</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114192706120476.jpg" />
+                        <div class="name">YI FEI</div>
+                        <div class="title">2013 ChinaClear</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114192706120581.png" />
+                        <div class="name">LI RUNDONG</div>
+                        <div class="title">2012 Google</div>
+                    </div>
+                </div>
+                <div class="graduated-student">
+                    <div class="student-container">
+                        <img class="avatar" src="https://se.pku.edu.cn/images/content/2021-01/20210114192706119374.jpg" />
+                        <div class="name">LIU QINGZHOU</div>
+                        <div class="title">2012 Netease</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot-container">
+            <div class="links">
+                <div class="link"><a href="https://www.pku.edu.cn"><i class="dot"></i>Peking University</a></div>
+                <div class="link"><a href="https://se.pku.edu.cn"><i class="dot"></i>PKU SERC</a></div>
+                <div class="link"><a href="https://eecs.pku.edu.cn"><i class="dot"></i>PKU EECS</a></div>
+                <div class="link"><a href="https://ss.pku.edu.cn"><i class="dot"></i>PKU SSM</a></div>
+            </div>
+            <div class="title">
+                <img class="badge" src="https://se.pku.edu.cn/images/content/2021-01/20210131142256311390.png" />
+                <div>
+                    <div class="text">
+                        <a>The Knowledge Computing Lab</a>
+                    </div>
+                    <div class="subtext">
+                        <a>The National Engineering Research Center for Software Engineering</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="row">
+                    <div class="icon"><img src="https://se.pku.edu.cn/images/content/2021-01/20210131142256311237.png" /></div>
+                    <div class="text">No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871</div>
+                </div>
+                <div class="row">
+                    <div class="icon"><img src="https://se.pku.edu.cn/images/content/2021-01/20210131142256310192.png" /></div>
+                    <div class="text">wye#pku.edu.cn</div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright © National Engineering Research Center For Software Engineering 2020</div>
+    </div>
+</body>
+<footer>
+    <!--[if lt IE 9]>
+        　　<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        　　<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    <script src="/docs/2020-05/20200507141008607209.js"></script>
+    <script src="/docs/2020-06/20200601131132801493.js"></script>
+</footer>
+
+</html>
+
