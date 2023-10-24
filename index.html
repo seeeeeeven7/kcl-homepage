@@ -70,6 +70,56 @@
             <div class="background-round" style="width: 845px; height: 845px; right: -320px; top: 4840px;"></div>
             <!-- <div class="background-round" style="width: 427px; height: 427px; left: -260px; top: 6390px;"></div> -->
         </div>
+        <style>
+
+            .LLM-container {
+                position: absolute;
+                top: 291px;
+                width: 436px;
+                right: 80px;
+                z-index: 9;
+            }
+
+            .LLM {
+                font-size: 1em;
+                display: flex;
+                flex-wrap: nowrap;
+                padding: 4px 12px;
+                background-color: #94060a;
+                border-radius: 20px;
+                line-height: 24px;
+                align-items: center;
+            }
+
+            @media (max-width: 768px) {
+                .LLM-container {
+                    position: relative;
+                    right: 0;
+                    top: 16px;
+                    width: 100%;
+                    padding: 0 16px;
+                    margin-bottom: 12px;
+                }
+            }
+
+            @media (min-width: 768px) and (max-width: 1170px) {
+                .LLM-container {
+                    right: 12px;
+                }
+            }
+        </style>
+        <div class="LLM-container">
+            <div class="LLM" onclick="gotoCodeShell()">
+                <svg style="height: 32px;" t="1698143216765" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4075" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M702.08 558.72a469.12 469.12 0 0 0-50.56-210.56 776.64 776.64 0 0 0-105.6-186.56A778.24 778.24 0 0 0 467.2 86.4c-10.88-9.6-37.76-27.2-58.88-44.16S384 28.16 384 50.88c22.72 248-217.92 433.28-261.44 540.16-83.2 208.32 27.2 366.4 224 397.12 26.24 4.16 29.44-4.8 9.92-20.16a192 192 0 0 1-75.52-224c29.44-86.08 103.04-111.04 131.52-250.56 4.48-22.4 22.08-27.52 40.64-11.2a768 768 0 0 1 173.44 234.88c25.92 74.88 38.4 151.36-101.44 248.96-20.48 14.4 8.64 27.52 35.2 24.96C746.88 972.8 930.56 800 928 653.44c0-53.76-51.2-168-112.32-256-13.76-19.52-28.8-16.32-32 6.4-6.08 64-8.32 110.72-56 164.16-15.04 18.88-26.88 13.44-25.6-9.28z" fill="white" p-id="4076"></path></svg>
+                <a style="color: white; text-decoration: none; cursor: pointer; margin-left: 12px;">We have open-sourced our powerful code large language model - CodeShell</a>
+            <!-- <svg t="1698143650660" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="13459" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48"><path d="M512 912c-220.8 0-400-179.2-400-400s179.2-400 400-400 400 179.2 400 400-179.2 400-400 400M512 32C247.2 32 32 247.2 32 512s215.2 480 480 480 480-215.2 480-480S776.8 32 512 32m-53.6 290.4c-16.8-14.4-41.6-13.6-56.8 3.2s-13.6 41.6 3.2 56.8l167.2 150.4-168 157.6c-16 15.2-16 40.8-0.8 56.8 15.2 15.2 39.2 16 55.2 1.6l200-187.2c16-15.2 16.8-40 1.6-56.8l-2.4-2.4-199.2-180z" p-id="13460" fill="#94060a"></path></svg> -->
+            </div>
+            <script>
+                function gotoCodeShell() {
+                    window.open('https://github.com/WisdomShell/codeshell')
+                }
+            </script>
+        </div>
         <a class="target-fix" id="introduction" name="introduction"></a>
         <div class="introduction">
             <h1>Introduction</h1>
@@ -83,7 +133,7 @@
                 <p><span style="font-weight:bold">The National Engineering Research Center for Software
                         Engineering</span> was established in July 1996. Professor YANG Fuqing, Academician of the Chinese Academy of Sciences, served as the founding director. As a national research institution, the center focuses on technological innovation and has successfully built SDKs and supporting tools for industrial software development and production. It has established itself as a pioneer in many emerging but strategic areas such as government big data, software and system security, human-machine integration, intelligent sensing computing, smart cities, and blockchain.</p>
             </div>
-            <div class="wanted">
+            <div class="wanted" style="top: 134px">
                 <div class="wanted-container">
                     <img class="wanted-icon" src="/images/content/2020-05/20200507185349480195.png" />
                     <p>We are looking for highly self-motivated students to work with us as PhD candidates (several positions open for 2024 Fall) or for Master's Degree. If you share our vision and are interested in working with us, please send your resume to <a>wye#pku.edu.cn</a>.
@@ -267,7 +317,7 @@
                         <tr>
                             <td>02</td>
                             <td>2021.12 - 2024.11</td>
-                            <td>National Key Research And Development Program of China, 2021YFC3340101 (No. 2021YFC3340101) </td>
+                            <td>National Key Research And Development Program of China, Research on cross-modal judicial file element extraction technology (No. 2021YFC3340101) </td>
                         </tr>
                         <tr>
                             <td>03</td>
