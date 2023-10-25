@@ -76,8 +76,10 @@
                 position: absolute;
                 top: 291px;
                 width: 436px;
-                right: 80px;
+/*                right: 80px;*/
                 z-index: 9;
+                left: 50%;
+                transform: translateX(136px);
             }
 
             .LLM {
@@ -99,12 +101,16 @@
                     width: 100%;
                     padding: 0 16px;
                     margin-bottom: 12px;
+                    left: unset;
+                    transform: unset;
                 }
             }
 
             @media (min-width: 768px) and (max-width: 1170px) {
                 .LLM-container {
                     right: 12px;
+                    left: unset;
+                    transform: unset;
                 }
             }
         </style>
