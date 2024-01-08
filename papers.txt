@@ -1,3 +1,5 @@
+Chaoya Jiang，Wei Ye*，Haiyang Xu，Qinghao Ye，Ming Yan，Ji Zhang，Shikun Zhang. TiMix: Text-aware Image Mixing for Effective Vision-Language Pretraining. AAAI'24 (CCF Rank A, Full Paper)
+Bo Li, Wei Ye*, Quansen Wang, Wen Zhao, Shikun Zhang. Labels Need Prompts Too: Mask Matching for Natural Language Understanding Tasks. AAAI'24 (CCF Rank A, Full Paper)
 Dingyao Yu, Kaitao Song, Peiling Lu, Tianyu He, Xu Tan, Wei Ye*, Shikun Zhang*, Jiang Bian. MusicAgent: An AI Agent for Music Understanding and Generation with Large Language Models. EMNLP'23 (System Demonstrations)
 Chaoya Jiang, Haiyang Xu, Wei Ye*, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Fei Huang, Ji Zhang. COPA: Efficient Vision-Language Pre-training through Collaborative Object- and Patch-Text Alignment. MM'23 (CCF Rank A, Full Paper) 
 Chaoya Jiang, Haiyang Xu, Wei Ye*, Qinghao Ye, Chenliang Li, Ming Yan, Bin Bi, Shikun Zhang, Fei Huang, Songfang Huang. BUS:Efficient and Effective Vision-language Pretraining with Bottom-Up Patch Summarization. ICCV'23 (CCF Rank A, Full Paper)
