@@ -1,3 +1,4 @@
+Zhengran Zeng, Yidong Wang, Rui Xie, Wei Ye*, Shikun Zhang*.CoderUJB: An Executable and Unified Java Benchmark for Practical Programming Scenarios. ISSTA'24 (CCF Rank A, Full Paper)
 Chaoya Jiang, Haiyang Xu, Mengfan Dong, Jiaxing Chen, Wei Ye*, Ming Yan, Qinghao Ye, Ji Zhang, Fei Huang, Shikun Zhang. Hallucination Augmented Contrastive Learning for Multimodal Large Language Model. CVPR'24 (CCF Rank A, Full Paper)
 Yidong Wang, Zhuohao Yu, Zhengran Zeng, Linyi Yang, Wenjin Yao, Cunxiang Wang, Hao Chen, Chaoya Jiang, Rui Xie, Jindong Wang, Xing Xie, Wei Ye*, Shikun Zhang, Yue Zhang. PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization. ICLR'24
 Linyi Yang, Shuibai Zhang, Zhuohao Yu, Guangsheng Bao, Yidong Wang, Jindong Wang, Ruochen Xu, Wei Ye, Xing Xie, Weizhu Chen, Yue Zhang. Supervised Knowledge Makes Large Language Models Better In-context Learners. ICLR'24
