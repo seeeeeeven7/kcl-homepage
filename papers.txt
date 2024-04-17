@@ -1,3 +1,4 @@
+Xiaoling Zhou, Wei Ye*, Zhemg Lee, Rui Xie, Shikun Zhang. Boosting Model Resilience via Implicit Adversarial Data Augmentation. IJCAI'24 (CCF Rank A, Full Paper)
 Zhengran Zeng, Yidong Wang, Rui Xie, Wei Ye*, Shikun Zhang*.CoderUJB: An Executable and Unified Java Benchmark for Practical Programming Scenarios. ISSTA'24 (CCF Rank A, Full Paper)
 Chaoya Jiang, Haiyang Xu, Mengfan Dong, Jiaxing Chen, Wei Ye*, Ming Yan, Qinghao Ye, Ji Zhang, Fei Huang, Shikun Zhang. Hallucination Augmented Contrastive Learning for Multimodal Large Language Model. CVPR'24 (CCF Rank A, Full Paper)
 Yidong Wang, Zhuohao Yu, Zhengran Zeng, Linyi Yang, Wenjin Yao, Cunxiang Wang, Hao Chen, Chaoya Jiang, Rui Xie, Jindong Wang, Xing Xie, Wei Ye*, Shikun Zhang, Yue Zhang. PandaLM: An Automatic Evaluation Benchmark for LLM Instruction Tuning Optimization. ICLR'24
