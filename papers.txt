@@ -1,6 +1,6 @@
 Xiaoling Zhou, Wei Ye*, Yidong Wang, Chaoya Jiang, Zhemg Lee, Rui Xie, Shikun Zhang*. Enhancing In-Context Learning via Implicit Demonstration Augmentation. ACL’24 (CCF Rank A, Full Paper)
 Zhuohao Yu, Chang Gao, Wenjin Yao, Yidong Wang, Wei Ye*, Jindong Wang, Xing Xie, Yue Zhang, Shikun Zhang. KIEval: A Knowledge-grounded Interactive Evaluation Framework for Large Language Models. ACL’24 (CCF Rank A, Full Paper)
-Dingyao Yu, Yang An, Wei Ye*, xiongfeng xiao, Shaoguang Mao, Tao Ge, Shikun Zhang. Refining Corpora from a Model Calibration Perspective for Chinese Spelling Correction. ACL’24 (Findings)
+Dingyao Yu, Yang An, Wei Ye*, Xiongfeng Xiao, Shaoguang Mao, Tao Ge, Shikun Zhang. Refining Corpora from a Model Calibration Perspective for Chinese Spelling Correction. ACL’24 (Findings)
 Qi Guo, Leiyu Wang, Yidong Wang, Wei Ye*, Shikun Zhang*. What Makes a Good Order of Examples in In-Context Learning. ACL’24 (Findings)
 Zeqian Ju, Yuancheng Wang, Kai Shen, Xu Tan, Detai Xin, Dongchao Yang, Yanqing Liu, Yichong Leng, Kaitao Song, Siliang Tang, Zhizheng Wu, Tao Qin, Xiang-Yang Li, Wei Ye, Shikun Zhang, Jiang Bian, Lei He, Jinyu Li, Sheng Zhao. NaturalSpeech 3: Zero-Shot Speech Synthesis with Factorized Codec and Diffusion Models. ICML'24 (CCF Rank A, Full Paper)
 Xiaoling Zhou, Wei Ye*, Zhemg Lee, Rui Xie, Shikun Zhang. Boosting Model Resilience via Implicit Adversarial Data Augmentation. IJCAI'24 (CCF Rank A, Full Paper)
