@@ -1,4 +1,4 @@
-Chaoya Jiang, Wei Ye*, Mengfan Dong, Jia Hongrui, Haiyang Xu, Ming Yan, Ji Zhang, Shikun Zhang. Hal-Eval: A Universal and Fine-grained Hallucination Evaluation Framework for Large Vision Language Models. MM'23 (CCF Rank A, Full Paper)
+Chaoya Jiang, Wei Ye*, Mengfan Dong, Jia Hongrui, Haiyang Xu, Ming Yan, Ji Zhang, Shikun Zhang. Hal-Eval: A Universal and Fine-grained Hallucination Evaluation Framework for Large Vision Language Models. MM'24 (CCF Rank A, Full Paper)
 Xiao Deng, Fuyao Duan, Rui Xie, Wei Ye* and Shikun Zhang. Improving long-tail vulnerability detection through data augmentation based on large language models. ICSME'24 (CCF Rank B, Full Paper)
 Xiaoling Zhou, Wei Ye*, Yidong Wang, Chaoya Jiang, Zhemg Lee, Rui Xie, Shikun Zhang*. Enhancing In-Context Learning via Implicit Demonstration Augmentation. ACL’24 (CCF Rank A, Full Paper)
 Zhuohao Yu, Chang Gao, Wenjin Yao, Yidong Wang, Wei Ye*, Jindong Wang, Xing Xie, Yue Zhang, Shikun Zhang. KIEval: A Knowledge-grounded Interactive Evaluation Framework for Large Language Models. ACL’24 (CCF Rank A, Full Paper)
