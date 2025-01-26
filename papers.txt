@@ -1,4 +1,6 @@
-Yutao Mou, Shikun Zhang, Wei Ye*. DivSafe: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types. NeurIPS'24 (CCF Rank A,  Datasets and Benchmarks Track)
+Xiaoling Zhou, Mingjie Zhang, Zhemg Lee, Wei Ye*, Shikun Zhang*. HaDeMiF: Hallucination Detection and Mitigation in Large Language Models. ICLR'25
+Zile Qiao, Wei Ye*, Yong Jiang, Tong Mo, Pengjun Xie, Weiping Li, Fei Huang, Shikun Zhang. Supportiveness-based Knowledge Rewriting for Retrieval-augmented Language Modeling. NAACL'25 (Findings)
+Yutao Mou, Shikun Zhang, Wei Ye*. SG-Bench: Evaluating LLM Safety Generalization Across Diverse Tasks and Prompt Types. NeurIPS'24 (CCF Rank A,  Datasets and Benchmarks Track)
 Chaoya Jiang, Jia Hongrui, Haiyang Xu, Wei Ye*, Mengfan Dong, Ming Yan, Ji Zhang, Fei Huang, Shikun Zhang. MaVEn: An Effective Multi-granularity Hybrid Visual Encoding Framework for Multimodal Large Language Model. NeurIPS'24 (CCF Rank A, Full Paper)
 Yidong Wang, Qi Guo, Wenjin Yao, Hongbo Zhang, Xin Zhang, Zhen Wu, Meishan Zhang, Xinyu Dai, Min zhang, Qingsong Wen, Wei Ye*, Shikun Zhang*, Yue Zhang*. AutoSurvey: Large Language Models Can Automatically Write Surveys. NeurIPS'24 (CCF Rank  A, Full Paper)
 Wenjin Yao, Yidong Wang, Zhuohao Yu, Rui Xie, Shikun Zhang, Wei Ye*. PURE: Aligning LLM via Pluggable Query Reformulation for Enhanced Helpfulness. EMNLP'24 (Findings)
