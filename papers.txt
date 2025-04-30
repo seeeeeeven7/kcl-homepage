@@ -1,3 +1,4 @@
+Xiaoling Zhou, Ye Wei*, Zhemg Lee, Shikun Zhang*. Robustness to Spurious Correlations via Dynamic Knowledge Transfer (CCF Rank A, Full Paper)
 Peiyang Liu, Xi Wang, Ziqiang Cui, Wei Ye*. Queries Are Not Alone: Clustering Text Embeddings for Video Search. SIGIR'25 (CCF Rank A, Full Paper)
 Xiaoling Zhou, Wei Ye*, Zhemg Lee, Lei Zou, Shikun Zhang*. Valuing Training Data via Causal Inference for In-Context Learning. TKDE'25 (CCF Rank A, Journal)
 Hongrui Jia, Chaoya Jiang, Haiyang Xu, Wei Ye*, Mengfan Dong, Ming Yan, Ji Zhang, Fei Huang, Shikun Zhang. SymDPO: Boosting In-Context Learning of Large Multimodal Models with Symbol Demonstration Direct Preference Optimization. CVPR'25 (CCF Rank A, Full Paper)
