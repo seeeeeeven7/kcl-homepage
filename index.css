@@ -1,0 +1,1294 @@
+@font-face {
+  font-family: 'Lanting_hei';
+  src: url('../font/FZLTH_GBK.eot');
+  src: url('../font/FZLTH_GBK.eot?#iefix') format('embedded-opentype'), url('../font/FZLTH_GBK.woff') format('woff'), url('../font/FZLTH_GBK.TTF') format('truetype'), url('../font/FZLTH_GBK.svg') format('svg');
+}
+@font-face {
+  font-family: 'Lanting_Cuhei';
+  src: url('../font/FZLTCH_GBK.eot');
+  src: url('../font/FZLTCH_GBK.eot?#iefix') format('embedded-opentype'), url('../font/FZLTCH_GBK.woff') format('woff'), url('../font/FZLTCH_GBK.TTF') format('truetype'), url('../font/FZLTCH_GBK.svg') format('svg');
+}
+@font-face {
+  font-family: 'Lanting_Xianhei';
+  src: url('../font/FZLTXH.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lanting_Zhonghei';
+  src: url('../font/FZLTZH.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PingFang_Medium';
+  src: url('../font/PingFangSC_Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lanting_Tehei';
+  src: url('../font/FZLTTH_GBK.eot');
+  src: url('../font/FZLTTH_GBK.eot?#iefix') format('embedded-opentype'), url('../font/FZLTTH_GBK.woff') format('woff'), url('../font/FZLTTH_GBK.TTF') format('truetype'), url('../font/FZLTTH_GBK.svg') format('svg');
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+h1 {
+  height: 41px;
+  margin: 21px 0;
+  font-size: 36px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 41px;
+  cursor: default;
+}
+.header {
+  height: 104px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: white;
+}
+.header a {
+  text-decoration: none;
+}
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active,
+.header a:focus {
+  text-decoration: none;
+}
+.header a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+.header .header-container {
+  max-width: 1170px;
+  margin: auto;
+}
+.header .header-container .title {
+  float: left;
+  padding: 20px 0 20px 24px;
+  display: flex;
+}
+.header .header-container .title .badge {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+.header .header-container .title .text {
+  position: relative;
+  height: 25px;
+  font-size: 18px;
+  font-family: 'Lanting_Tehei';
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 25px;
+  cursor: default;
+}
+.header .header-container .title .subtext {
+  padding-top: 4px;
+  height: 32px;
+  font-family: 'PingFang_Medium';
+  font-weight: 400;
+  line-height: 16px;
+  width: 300px;
+  font-size: 14px;
+  cursor: default;
+}
+.header .header-container .title .subtext a {
+  word-break: break-word;
+  word-wrap: break-word;
+  color: #838383;
+}
+.header .header-container .title-mobile {
+  display: none;
+}
+.header .header-container .nav {
+  height: 100%;
+  float: right;
+  right: 0;
+  top: 35px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: 104px;
+}
+.header .header-container .nav li {
+  position: relative;
+  margin: 0 16px;
+  cursor: pointer;
+}
+.header .header-container .nav li.active a {
+  font-weight: 400;
+  color: #94060a;
+}
+.header .header-container .nav li:first-child a {
+  font-family: "PingFang_Medium";
+}
+.header .header-container .nav li a {
+  position: relative;
+  top: 63px;
+  font-size: 14px;
+  font-family: "Arial";
+  color: #2E2A2A;
+}
+.header .header-container .nav li a.active {
+  color: #94060A;
+  cursor: default;
+}
+.header .header-container .nav li a:hover::before {
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #94060A;
+  content: " ";
+}
+.header .title-mobile {
+  display: none;
+}
+.footer {
+  width: 100%;
+  background: #94060A;
+}
+.footer .foot-container {
+  max-width: 1170px;
+  height: 160px;
+  margin: auto;
+  position: relative;
+}
+.footer .foot-container .links {
+  float: left;
+  margin-top: 32px;
+  padding: 0;
+  width: 400px;
+  display: flex;
+  flex-flow: wrap;
+  height: 76px;
+}
+.footer .foot-container .links .link {
+  position: relative;
+  width: 50%;
+  height: 22px;
+  text-align: left;
+  color: #ffffff;
+  margin: 8px 0;
+}
+.footer .foot-container .links .link a {
+  font-size: 16px;
+  font-family: 'PingFang_Medium';
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 22px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+.footer .foot-container .links .link a:hover {
+  text-decoration: underline;
+}
+.footer .foot-container .links .link a .dot {
+  position: absolute;
+  left: 0;
+  height: 22px;
+  width: 20px;
+}
+.footer .foot-container .links .link a .dot::before {
+  position: absolute;
+  top: 8px;
+  content: " ";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: white;
+}
+.footer .foot-container .title {
+  float: left;
+  margin-top: 40px;
+  display: flex;
+}
+.footer .foot-container .title .badge {
+  width: 64px;
+  height: 64px;
+  margin-right: 16px;
+}
+.footer .foot-container .title .text {
+  position: relative;
+  height: 25px;
+  font-size: 18px;
+  font-family: 'Lanting_Tehei';
+  font-weight: normal;
+  color: white;
+  line-height: 25px;
+  cursor: default;
+}
+.footer .foot-container .title .subtext {
+  padding-top: 4px;
+  height: 32px;
+  font-family: 'PingFang_Medium';
+  font-weight: 400;
+  line-height: 16px;
+  width: 300px;
+  font-size: 14px;
+  cursor: default;
+}
+.footer .foot-container .title .subtext a {
+  word-break: break-word;
+  word-wrap: break-word;
+  color: white;
+}
+.footer .foot-container .contact {
+  width: 272px;
+  float: right;
+  cursor: default;
+  margin-top: 40px;
+}
+.footer .foot-container .contact .row {
+  position: relative;
+  height: 44px;
+  padding-left: 24px;
+}
+.footer .foot-container .contact .row .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+}
+.footer .foot-container .contact .row .icon img {
+  height: 16px;
+  width: 16px;
+}
+.footer .foot-container .contact .row .text {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 16px;
+}
+.footer .copyright {
+  width: 100%;
+  height: 48px;
+  background: #230506;
+  font-size: 12px;
+  font-family: "PingFang_Medium";
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 48px;
+  text-align: center;
+  white-space: normal;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.footer a {
+  text-decoration: none;
+}
+.footer a:link,
+.footer a:visited,
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+  text-decoration: none;
+}
+.footer a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 768px) {
+  .header {
+    height: 64px !important;
+    display: flex;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.09) !important;
+  }
+  .header .header-container {
+    display: none !important;
+  }
+  .header .title-mobile {
+    position: absolute;
+    width: 100% !important;
+    display: inline-flex !important;
+  }
+  .header .title-mobile .title {
+    width: 100%;
+    height: 100%;
+    padding: 12px 16px;
+    display: flex;
+  }
+  .header .title-mobile .title .badge {
+    width: 40px;
+    height: 40px;
+  }
+  .header .title-mobile .title .text {
+    position: relative;
+    top: -1px;
+    margin-left: 8px;
+  }
+  .header .title-mobile .title .text.top {
+    display: none;
+  }
+  .header .title-mobile .title .text .main {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: normal;
+    color: #2e2a2a;
+    line-height: 24px;
+  }
+  .header .title-mobile .title .text .sub {
+    font-size: 12px;
+    font-family: "Lanting_Zhonghei";
+    font-weight: normal;
+    color: #2e2a2a;
+    line-height: 20px;
+  }
+  .header .title-mobile .nav-container .nav-button {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    float: right;
+    text-align: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-family: "Arial";
+    font-size: 30px;
+    height: 64px;
+    width: 56px;
+  }
+  .header .title-mobile .nav-container .nav-button .icon {
+    position: relative;
+    top: 20px;
+    height: 24px;
+    width: 24px;
+  }
+  .header .title-mobile .nav-container .nav-button .icon.top {
+    display: none;
+  }
+  .header .title-mobile .nav-container .nav-list {
+    position: absolute;
+    list-style: none;
+    display: none;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.09) !important;
+  }
+  .header .title-mobile .nav-container .nav-list li {
+    width: 100%;
+    height: 57px;
+    border-top: 1px solid #efefef;
+  }
+  .header .title-mobile .nav-container .nav-list li.active a {
+    color: #93070a !important;
+  }
+  .header .title-mobile .nav-container .nav-list li a {
+    display: block;
+    height: 100% !important;
+    width: 100% !important;
+    font-size: 14px;
+    text-align: left;
+    font-family: "Lanting_Hei";
+    text-decoration: none;
+    color: #686868;
+    line-height: 56px;
+    font-weight: normal;
+    padding-left: 24px;
+  }
+  .header .title-mobile .nav-container .nav-list li a:link,
+  .header .title-mobile .nav-container .nav-list li a:visited,
+  .header .title-mobile .nav-container .nav-list li a:hover,
+  .header .title-mobile .nav-container .nav-list li a:active,
+  .header .title-mobile .nav-container .nav-list li a:focus {
+    text-decoration: none;
+  }
+  .header .title-mobile .nav-container .nav-list li a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+  }
+  .header.expand {
+    position: relative;
+    height: 160px !important;
+    background: linear-gradient(180deg, #f7f7f7 0%, #ececec 100%);
+  }
+  .header.expand .title-mobile .title {
+    display: block;
+    text-align: center;
+    padding: 16px;
+  }
+  .header.expand .title-mobile .title .badge {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+  }
+  .header.expand .title-mobile .title .text {
+    margin-top: 8px;
+    top: 0;
+  }
+  .header.expand .title-mobile .title .text.no-top {
+    display: none;
+  }
+  .header.expand .title-mobile .title .text.top {
+    display: block;
+  }
+  .header.expand .title-mobile .title .text .main {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Lanting_Tehei";
+    font-weight: normal;
+    color: #2e2a2a;
+    line-height: 24px;
+  }
+  .header.expand .title-mobile .title .text .sub {
+    text-align: center;
+    font-size: 10px;
+    font-family: "Lanting_Zhonghei";
+    font-weight: normal;
+    color: #8d8d8d;
+    line-height: 14px;
+  }
+  .header.expand .title-mobile .nav-container .nav-button {
+    left: 0;
+    right: none;
+  }
+  .header.expand .title-mobile .nav-container .nav-button .icon.no-top {
+    display: none;
+  }
+  .header.expand .title-mobile .nav-container .nav-button .icon.top {
+    top: 18px;
+    display: block;
+  }
+  .header.expand .title-mobile .nav-container .nav-list {
+    top: 160px;
+  }
+  .container {
+    overflow: hidden;
+    width: 100% !important;
+    padding: 160px 0 0 !important;
+  }
+  .container.expand {
+    padding-top: 0 !important;
+  }
+  .container .target-fix {
+    top: -64px !important;
+  }
+  .container .target-fix#introduction {
+    top: -160px !important;
+  }
+  .container h1 {
+    width: 100% !important;
+    text-align: center;
+    margin: 20px 0 !important;
+  }
+  .container .background {
+    display: none;
+  }
+  .container .introduction {
+    margin-top: 0 !important;
+    height: auto !important;
+  }
+  .container .introduction .photo {
+    display: none !important;
+  }
+  .container .introduction .aphorism {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 16px 16px 16px 46px !important;
+  }
+  .container .introduction .aphorism::before {
+    top: 16px !important;
+    left: -10px !important;
+  }
+  .container .introduction .text {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    padding: 16px !important;
+  }
+  .container .introduction .text p {
+    margin: 0 !important;
+    margin-bottom: 16px !important;
+  }
+  .container .introduction .text p:last-child {
+    margin-bottom: 0 !important;
+  }
+  .container .introduction .wanted {
+    margin-top: 16px;
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    margin-top: 16px !important;
+    padding: 0 16px;
+  }
+  .container .introduction .wanted .wanted-container {
+    height: auto !important;
+    padding-bottom: 20px !important;
+  }
+  .container .papers {
+    padding-bottom: 0 !important;
+  }
+  .container .papers .table-container {
+    padding: 0 16px !important;
+    margin-top: 0 !important;
+  }
+  .container .papers .table-container #papers-container table th,
+  .container .papers .table-container #papers-container table td {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .container .papers .table-container #papers-container table th:first-child,
+  .container .papers .table-container #papers-container table td:first-child {
+    padding-left: 0 !important;
+    width: 30px !important;
+  }
+  .container .papers .table-container #papers-container table td {
+    padding: 16px 0 !important;
+  }
+  .container .awards {
+    padding-bottom: 0 !important;
+  }
+  .container .awards .table-container {
+    padding: 0 16px !important;
+    margin-top: 0 !important;
+  }
+  .container .awards .table-container #awards-container table th,
+  .container .awards .table-container #awards-container table td {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .container .awards .table-container #awards-container table th:first-child,
+  .container .awards .table-container #awards-container table td:first-child {
+    padding-left: 0 !important;
+    width: 24px !important;
+  }
+  .container .awards .table-container #awards-container table th:nth-child(2),
+  .container .awards .table-container #awards-container table td:nth-child(2) {
+    width: 52px !important;
+  }
+  .container .awards .table-container #awards-container table td {
+    padding: 16px 0 !important;
+  }
+  .container .projects {
+    padding-bottom: 0 !important;
+  }
+  .container .projects .description {
+    width: 100% !important;
+    padding: 0 16px !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    margin-top: 16px !important;
+  }
+  .container .projects .table-container {
+    margin-top: 16px !important;
+    padding: 0 16px !important;
+  }
+  .container .projects .table-container table th,
+  .container .projects .table-container table td {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  .container .projects .table-container table th:first-child,
+  .container .projects .table-container table td:first-child {
+    padding-left: 0 !important;
+    width: 24px !important;
+  }
+  .container .projects .table-container table th:nth-child(2),
+  .container .projects .table-container table td:nth-child(2) {
+    width: 56px !important;
+  }
+  .container .projects .table-container table th:last-child,
+  .container .projects .table-container table td:last-child {
+    padding-left: 6px !important;
+  }
+  .container .projects .table-container table td {
+    padding: 16px 0 !important;
+  }
+  .container .projects .table-container table td:nth-child(2) {
+    text-align: center !important;
+  }
+  .container .people {
+    padding-bottom: 0 !important;
+  }
+  .container .people .group .group-name {
+    margin-left: 16px !important;
+  }
+  .container .people .group .professor {
+    padding-top: 16px !important;
+    padding-bottom: 0 !important;
+    display: block !important;
+    height: auto !important;
+  }
+  .container .people .group .professor .avatar {
+    margin: auto !important;
+  }
+  .container .people .group .professor .info {
+    padding: 16px !important;
+    height: auto !important;
+  }
+  .container .people .group .professor .info .name {
+    text-align: center !important;
+  }
+  .container .people .group .professor .info .title {
+    text-align: center !important;
+  }
+  .container .people .group .professor .info .tags {
+    display: block !important;
+    margin: 0 !important;
+  }
+  .container .people .group .professor .info .tags .tag {
+    margin: 8px 0 !important;
+    text-align: center !important;
+  }
+  .container .people .group .professor .info .tags .tag:last-child {
+    margin-bottom: 0 !important;
+  }
+  .container .people .group.students {
+    padding-bottom: 0 !important;
+  }
+  .container .people .group.students > .group-name {
+    margin-left: 26px !important;
+  }
+  .container .people .group.students .student {
+    width: 100% !important;
+  }
+  .container .people .group.graduated-students > .group-name {
+    margin-left: 26px !important;
+  }
+  .container .people .group.graduated-students .graduated-student {
+    width: 100% !important;
+  }
+  .nav-mobile {
+    z-index: 999;
+    display: block !important;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    box-shadow: 0px -2px 12px 0px rgba(0, 0, 0, 0.09);
+    text-align: center;
+  }
+  .footer {
+    height: auto !important;
+  }
+  .footer .foot-container {
+    height: auto !important;
+    padding: 8px 16px !important;
+    display: block !important;
+  }
+  .footer .foot-container .links {
+    float: none !important;
+    display: flex !important;
+    margin-top: 0 !important;
+    width: 100% !important;
+  }
+  .footer .foot-container .title {
+    display: none !important;
+  }
+  .footer .foot-container .contact {
+    width: 100% !important;
+    float: none !important;
+    display: block !important;
+    margin-top: 16px !important;
+  }
+  .footer .foot-container .contact .row {
+    height: auto !important;
+    margin: 8px 0 !important;
+  }
+  .footer .copyright {
+    height: auto !important;
+    padding: 18px 16px;
+    line-height: 18px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1170px) {
+  .header .nav {
+    margin-right: 0 !important;
+  }
+}
+.container {
+  position: relative;
+  width: 100%;
+  background-color: #F7F7F7;
+  padding-top: 104px;
+}
+.container h1 {
+  font-family: "PingFang_Medium";
+  width: 205px;
+  height: 50px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #2e2a2a;
+  line-height: 50px;
+  margin: 0;
+}
+.container .target-fix {
+  position: relative;
+  top: -130px;
+  height: 0;
+  display: block;
+  overflow: hidden;
+}
+.container .background {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto;
+  z-index: 0;
+}
+.container .background .background-round {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.08;
+  border: 60px solid #979797;
+}
+.container .introduction {
+  position: relative;
+  width: 100%;
+  height: 941px;
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 121px;
+}
+.container .introduction .text {
+  position: absolute;
+  top: 68px;
+  left: 0;
+  width: 693px;
+  height: 474px;
+  word-wrap: break-word;
+  word-break: break-word;
+  background: white;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: normal;
+  line-height: 21px;
+  padding: 24px 24px 41px;
+}
+.container .introduction .wanted {
+  position: absolute;
+  right: 12px;
+  top: 79px;
+  width: 436px;
+  height: 195px;
+}
+.container .introduction .wanted .wanted-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px 24px 24px 112px;
+  border: 4px solid #94060a;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.container .introduction .wanted .wanted-container .wanted-icon {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 64px;
+  height: 64px;
+}
+.container .introduction .wanted .wanted-container p {
+  cursor: default;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #94060a;
+  line-height: 21px;
+  margin: 0;
+}
+.container .introduction .wanted .wanted-container p a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #2e2a2a;
+}
+.container .introduction .wanted .wanted-container p a:hover {
+  text-decoration: none;
+}
+.container .introduction .wanted .wanted-container p a:visited {
+  text-decoration: none;
+}
+.container .introduction .photo {
+  position: absolute;
+  top: 348px;
+  right: 0;
+  width: 756px;
+  height: 562px;
+  overflow: hidden;
+}
+.container .introduction .photo img {
+  width: 100%;
+}
+.container .introduction .aphorism {
+  position: absolute;
+  top: 663px;
+  left: 134px;
+  width: 560px;
+  height: 198px;
+  background-color: #94060A;
+  padding: 66px 34px 32px 48px;
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: white;
+  line-height: 25px;
+  cursor: pointer;
+}
+.container .introduction .aphorism:before {
+  position: absolute;
+  width: 48px;
+  height: 60px;
+  left: 0;
+  top: 24px;
+  font-size: 48px;
+  font-family: "Lanting_Tehei";
+  font-weight: normal;
+  color: white;
+  line-height: 60px;
+  content: "“";
+}
+.container .papers {
+  position: relative;
+  margin: auto;
+  max-width: 1170px;
+  padding-bottom: 80px;
+}
+.container .papers .table-container {
+  margin-top: 32px;
+  padding: 0 24px;
+  background-color: white;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  cursor: default;
+}
+.container .papers .table-container #papers-container {
+  overflow: hidden;
+}
+.container .papers .table-container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container .papers .table-container table th {
+  height: 65px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "PingFang_Medium";
+  font-weight: 500;
+  color: #c7c7c7;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .papers .table-container table th:first-child {
+  width: 85px;
+  padding-left: 8px;
+}
+.container .papers .table-container table td {
+  height: 93px;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #43454a;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .papers .table-container table td:first-child {
+  width: 85px;
+  padding-left: 8px;
+  color: #878787;
+}
+.container .awards {
+  position: relative;
+  margin: auto;
+  max-width: 1170px;
+  padding-bottom: 80px;
+}
+.container .awards .table-container {
+  margin-top: 32px;
+  padding: 0 24px;
+  background-color: white;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  cursor: default;
+}
+.container .awards .table-container #awards-container {
+  overflow: hidden;
+}
+.container .awards .table-container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container .awards .table-container table th {
+  height: 65px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "PingFang_Medium";
+  font-weight: 500;
+  color: #c7c7c7;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .awards .table-container table th:first-child {
+  width: 85px;
+  padding-left: 8px;
+}
+.container .awards .table-container table th:nth-child(2) {
+  width: 127px;
+}
+.container .awards .table-container table td {
+  height: 93px;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #43454a;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .awards .table-container table td span {
+  font-size: 16px;
+  font-family: "PingFang_Medium";
+  font-weight: 500;
+  color: #94060a;
+  line-height: 22px;
+}
+.container .awards .table-container table td:first-child {
+  width: 85px;
+  padding-left: 8px;
+  color: #878787;
+}
+.container .awards .table-container table td:nth-child(2) {
+  width: 127px;
+  font-size: 14px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #878787;
+  line-height: 20px;
+}
+.container .projects {
+  position: relative;
+  margin: auto;
+  max-width: 1170px;
+  padding-bottom: 80px;
+}
+.container .projects .description {
+  margin-top: 32px;
+  font-size: 18px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #878787;
+  line-height: 25px;
+}
+.container .projects .table-container {
+  margin-top: 32px;
+  padding: 0 24px;
+  background-color: white;
+  box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 4px;
+  cursor: default;
+}
+.container .projects .table-container table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container .projects .table-container table th {
+  height: 65px;
+  text-align: left;
+  font-size: 16px;
+  font-family: "PingFang_Medium";
+  font-weight: 500;
+  color: #c7c7c7;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .projects .table-container table th:first-child {
+  width: 85px;
+  padding-left: 8px;
+}
+.container .projects .table-container table th:nth-child(2) {
+  width: 214px;
+}
+.container .projects .table-container table td {
+  height: 93px;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #43454a;
+  line-height: 22px;
+  border-bottom: 1px solid #E9E9E9;
+}
+.container .projects .table-container table td span {
+  color: #878787;
+}
+.container .projects .table-container table td:first-child {
+  width: 85px;
+  padding-left: 8px;
+  color: #878787;
+}
+.container .projects .table-container table td:nth-child(2) {
+  width: 214px;
+  color: #878787;
+}
+.container .projects .table-container table tbody tr:last-child td {
+  border-bottom: none;
+}
+.container .people {
+  position: relative;
+  max-width: 1170px;
+  margin: auto;
+  padding-bottom: 130px;
+}
+.container .people .group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  cursor: default;
+}
+.container .people .group .group-name {
+  width: 100%;
+  color: #94060A;
+  font-family: "Lanting_Xianhei";
+  font-size: 24px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+.container .people .group .group-name::after {
+  display: block;
+  margin-top: 8px;
+  width: 60px;
+  height: 2px;
+  box-sizing: border-box;
+  border-top: 2px solid #94060A;
+  content: " ";
+}
+.container .people .group .professor {
+  position: relative;
+  margin-bottom: 24px;
+  height: 180px;
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+.container .people .group .professor .avatar {
+  background-color: blue;
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+  text-align: center;
+}
+.container .people .group .professor .avatar img {
+  max-width: 180px;
+  max-height: 180px;
+}
+.container .people .group .professor .info {
+  height: 100%;
+  padding: 24px;
+}
+.container .people .group .professor .info .name {
+  font-size: 24px;
+  font-family: "Lanting_Zhonghei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 34px;
+}
+.container .people .group .professor .info .title {
+  margin-top: 12px;
+  font-family: "Lanting_Xianhei";
+  font-size: 18px;
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 25px;
+}
+.container .people .group .professor .info .tags {
+  display: flex;
+  margin: 16px -8px 0;
+}
+.container .people .group .professor .info .tags .tag {
+  margin: 0 8px;
+  border-radius: 20px;
+  border: 1px solid #c7c7c7;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-family: "Lanting_Zhonghei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 20px;
+}
+.container .people .group.students {
+  margin: 24px -10px 0;
+  padding-bottom: 18px;
+}
+.container .people .group.students > .group-name {
+  margin-left: 10px;
+}
+.container .people .group.students .student {
+  position: relative;
+  width: 25%;
+  height: 140px;
+  border: 10px solid transparent;
+}
+.container .people .group.students .student .student-container {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 27px 24px;
+}
+.container .people .group.students .student .student-container .name {
+  font-size: 24px;
+  font-family: "Lanting_Zhonghei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 34px;
+}
+.container .people .group.students .student .student-container .title {
+  font-size: 18px;
+  font-family: "Lanting_Xianhei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 25px;
+}
+.container .people .group.graduated-students {
+  margin: 24px -10px 0;
+  padding-bottom: 18px;
+}
+.container .people .group.graduated-students > .group-name {
+  margin-left: 10px;
+}
+.container .people .group.graduated-students .graduated-student {
+  position: relative;
+  width: 33%;
+  height: 140px;
+  border: 10px solid transparent;
+}
+.container .people .group.graduated-students .graduated-student .student-container {
+  position: relative;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding: 30px 24px;
+}
+.container .people .group.graduated-students .graduated-student .student-container .avatar {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  max-height: 120px;
+  max-width: 120px;
+}
+.container .people .group.graduated-students .graduated-student .student-container .name {
+  font-size: 21px;
+  font-family: "Lanting_Zhonghei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 30px;
+}
+.container .people .group.graduated-students .graduated-student .student-container .title {
+  margin-top: 9px;
+  font-size: 18px;
+  font-family: "Lanting_Xianhei";
+  font-weight: normal;
+  color: #2e2a2a;
+  line-height: 25px;
+}
+.container .papers .papers-more,
+.container .awards .papers-more,
+.container .papers .awards-more,
+.container .awards .awards-more {
+  height: 0;
+}
+.container .papers .more,
+.container .awards .more {
+  height: 80px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 400;
+  color: #c7c7c7;
+  line-height: 80px;
+  cursor: pointer;
+}
+.container .papers .more .button,
+.container .awards .more .button {
+  position: relative;
+  margin: auto;
+}
+.container .papers .more .button#papers-hide,
+.container .awards .more .button#papers-hide,
+.container .papers .more .button#awards-hide,
+.container .awards .more .button#awards-hide {
+  display: none;
+}
+.container .papers .more .button .down-arrow,
+.container .awards .more .button .down-arrow {
+  position: absolute;
+  top: 36px;
+  z-index: 4;
+  height: 16px;
+  width: 16px;
+}
+.container .papers .more .button .down-arrow:before,
+.container .awards .more .button .down-arrow:before,
+.container .papers .more .button .down-arrow:after,
+.container .awards .more .button .down-arrow:after {
+  position: absolute;
+  content: " ";
+  border-right: 8px transparent dashed;
+  border-left: 8px transparent dashed;
+  border-bottom: 8px transparent dashed;
+  border-top: 8px #fff solid;
+}
+.container .papers .more .button .down-arrow:before,
+.container .awards .more .button .down-arrow:before {
+  border-top: 8px #c7c7c7 solid;
+}
+.container .papers .more .button .down-arrow:after,
+.container .awards .more .button .down-arrow:after {
+  bottom: 1px;
+  border-top: 8px white solid;
+}
+.container .papers .more .button .up-arrow,
+.container .awards .more .button .up-arrow {
+  position: absolute;
+  top: 28px;
+  z-index: 4;
+  height: 16px;
+  width: 16px;
+}
+.container .papers .more .button .up-arrow:before,
+.container .awards .more .button .up-arrow:before,
+.container .papers .more .button .up-arrow:after,
+.container .awards .more .button .up-arrow:after {
+  position: absolute;
+  content: " ";
+  border-right: 8px transparent dashed;
+  border-left: 8px transparent dashed;
+  border-top: 8px transparent dashed;
+  border-bottom: 8px #fff solid;
+}
+.container .papers .more .button .up-arrow:before,
+.container .awards .more .button .up-arrow:before {
+  border-bottom: 8px #c7c7c7 solid;
+}
+.container .papers .more .button .up-arrow:after,
+.container .awards .more .button .up-arrow:after {
+  top: 1px;
+  border-bottom: 8px white solid;
+}
+.nav-mobile {
+  display: none;
+}
