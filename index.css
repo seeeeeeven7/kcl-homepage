@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: 'Lanting_hei';
   src: url('../font/FZLTH_GBK.eot');
   src: url('../font/FZLTH_GBK.eot?#iefix') format('embedded-opentype'), url('../font/FZLTH_GBK.woff') format('woff'), url('../font/FZLTH_GBK.TTF') format('truetype'), url('../font/FZLTH_GBK.svg') format('svg');
@@ -30,7 +30,7 @@
   font-family: 'Lanting_Tehei';
   src: url('../font/FZLTTH_GBK.eot');
   src: url('../font/FZLTTH_GBK.eot?#iefix') format('embedded-opentype'), url('../font/FZLTTH_GBK.woff') format('woff'), url('../font/FZLTTH_GBK.TTF') format('truetype'), url('../font/FZLTTH_GBK.svg') format('svg');
-}
+} */
 html,
 body {
   padding: 0;
