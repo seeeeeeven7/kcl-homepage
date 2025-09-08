@@ -8,3 +8,7 @@ with open('index.html', 'w', encoding='utf8') as outfile:
     print(open('index_template.html', 'r', encoding='utf8').read().replace('[!template]', index_papers), file=outfile)
 with open('weiye.html', 'w', encoding='utf8') as outfile:
     print(open('weiye_template.html', 'r', encoding='utf8').read().replace('[!template]', weiye_papers), file=outfile)
+with open('./archive/index.html', 'w', encoding='utf8') as outfile:
+    print(open('./archive/index_template.html', 'r', encoding='utf8').read().replace('[!template]', index_papers), file=outfile)
+with open('./archive/weiye.html', 'w', encoding='utf8') as outfile:
+    print(open('./archive/weiye_template.html', 'r', encoding='utf8').read().replace('[!template]', weiye_papers), file=outfile)

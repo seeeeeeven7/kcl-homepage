@@ -1,3 +1,4 @@
+Xiangyu Xi, Deyang Kong, Jian Yang, jiawei yang, Zhengyu Chen, Wei Wang, Jingang Wang, Xunliang Cai, Shikun Zhang, Wei Ye*. SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity. EMNLP'25 (Findings)
 Muzhi Yu, Zhengran Zeng, Wei Ye*, Jinan Sun*, Xiaolong Bai, Shikun Zhang. R3-Bench: Reproducible Real-world Reverse Engineering Dataset for Symbol Recovery. ASE'25 (CCF Rank A, Full Paper)
 Yutao Mou, Xiao Deng, Yuxiao Luo, Shikun Zhang, Wei Ye*. Can You Really Trust Code Copilot? Evaluating Large Language Models from a Code Security Perspective. ACL'25 (CCF Rank A, Full Paper)
 Bo Li, Gexiang Fang, Wei Ye*, Zhenghua Xu*, Jinglei Zhang, Hao Cheng, Shikun Zhang. MPL: Multiple Programming Languages with Large Language Models for Information Extraction. ACL'25 (Findings)
