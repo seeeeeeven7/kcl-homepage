@@ -1,3 +1,6 @@
+Chaoya Jiang, Yongrui Heng, Wei Ye, Haiyang Xu, Ming Yan, Ji Zhang, Fei Huang, Shikun Zhang. VLM-R³: Region Recognition, Reasoning, and Refinement for Enhanced Multimodal Chain-of-Thought. NeurIPS'25 (CCF Rank A, Full Paper)
+Zhuohao Yu, Xingru Jiang, Weizheng Gu, Yidong Wang, Qingsong Wen, Shikun Zhang, Wei Ye. SAEMark: Steering Personalized Multilingual LLM Watermarks with Sparse Autoencoders. NeurIPS'25 (CCF Rank A, Full Paper)
+Xiaoling Zhou, Mingjie Zhang, Zhemg Lee, YUNCHENG HUA, chengli xing, Wei Ye, Flora D. Salim, Shikun Zhang. Boosting Resilience of Large Language Models through Causality-Driven Robust Optimization. NeurIPS'25 (CCF Rank A, Full Paper)
 Xiangyu Xi, Deyang Kong, Jian Yang, jiawei yang, Zhengyu Chen, Wei Wang, Jingang Wang, Xunliang Cai, Shikun Zhang, Wei Ye*. SampleMix: A Sample-wise Pre-training Data Mixing Strategey by Coordinating Data Quality and Diversity. EMNLP'25 (Findings)
 Muzhi Yu, Zhengran Zeng, Wei Ye*, Jinan Sun*, Xiaolong Bai, Shikun Zhang. R3-Bench: Reproducible Real-world Reverse Engineering Dataset for Symbol Recovery. ASE'25 (CCF Rank A, Full Paper)
 Yutao Mou, Xiao Deng, Yuxiao Luo, Shikun Zhang, Wei Ye*. Can You Really Trust Code Copilot? Evaluating Large Language Models from a Code Security Perspective. ACL'25 (CCF Rank A, Full Paper)
