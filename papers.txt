@@ -1,3 +1,7 @@
+Hongrui Jia#, Jitong Liao#, Xi Zhang#, Haiyang Xu*, Tianbao Xie, Chaoya Jiang, Ming Yan, Si Liu, Wei Ye*, Fei Huang. OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents. ICLR'26 
+Yidong Wang#, Yunze Song#, Tingyuan Zhu, Xuanwang Zhang, Zhuohao Yu, Hao Chen, Chiyu Song, Qiufeng Wang, Cunxiang Wang, Zhen Wu, Xinyu Dai, Yue Zhang, Wei Ye*, Shikun Zhang*. TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them. ICLR'26 
+Zhaolu Kang#, Junhao Gong#, Jiaxu Yan#, Wanke Xia, Yian Wang, Zhuo Cheng, Wenhao Cao, Ziwen Wang, ZhiYuan Feng, Huaxuan Ding, Siqi He, Shannan Yan, Xiaomin He, Junzhe Chen, Chaoya Jiang, Wei Ye*, Kaidong Yu*, Xuelong Li*. HSSBench: Benchmarking Humanities and SocialSciences Ability for Multimodal Large LanguageModels. ICLR'26 
+Haozhe Wang, Haoran Que, Qixin Xu, Minghao Liu, Wangchunshu Zhou, Jiazhan Feng, Wanjun Zhong, Wei Ye, Tong Yang, Wenhao Huang, Ge Zhang, Fangzhen Lin. Reverse-Engineered Reasoning for Open-Ended Generation. ICLR'26
 Xiaoling Zhou, Zhemg Lee, Wei Ye*, and Shikun Zhang*. Dynamic Knowledge Transfer for Mitigating Spurious Correlations in Deep Learning. IJCV (CCF Rank A Journal)
 Mingjie Zhang, Xiaoling Zhou, Yuxiao Luo, Yiyu Liu, Shikun Zhang, Wei Ye*. ASKD: Reinforcement Learning-Style Knowledge Distillation with Quality-Adaptive Skewness. AAAI'26 (CCF Rank A, Full Paper)
 Bo Li, Tiantian, Zhenghua Xu*, Hao Cheng, Shikun Zhang, Wei Ye*. Modeling Uncertainty Trends for Timely Retrieval in Dynamic RAG. AAAI'26 (CCF Rank A, Full Paper)
