@@ -1,3 +1,13 @@
+Bo Li, Mingda Wang, Gexiang Fang, Shikun Zhang, Wei Ye*. Retrieval as Generation: A Unified Framework with Self-Triggered Information Planning. ACL'26 (Full Paper, CCF Rank A)
+Bo Li, Mingda Wang, Shikun Zhang, Wei Ye*. Instruction Data Selection via Answer Divergence. ACL'26 (Full Paper, CCF Rank A)
+Peiyang Liu, Zhirui Chen, Xi Wang, Di Liang, Youru Li, Zhi Cai, Wei Ye*. Learning from Contrasts: Synthesizing Reasoning Paths from Diverse Search Trajectories. ACL'26 (Full Paper, CCF Rank A)
+Xiaoling Zhou, Mingjie Zhang, Zhemg Lee, Wei Ye*, Shikun Zhang*. LeLoRA: Learnable Low-Rank Adaptation of Large Language Models. ACL'26 (Full Paper, CCF Rank A)
+Yutao Mou, Yuxiao Luo, Shikun Zhang, Wei Ye*. Thinking Twice Makes Large Language Models Safer and More Helpful. ACL'26 (Findings)
+Bo Li, Shikun Zhang, Wei Ye*. Data Selection for Multi-turn Dialogue Instruction Tuning. ACL'26 (Findings)
+Peiyang Liu, Yining Wang, Youru Li, Long Li, Zhi Cai, Wei Ye*. NeuroSym-Cal: Bridging the Reasoning-Execution Gap in Code Generation via Hierarchical Calibration. ACL'26 (Findings)
+Zhuohao Yu, Jiali Zeng, Weizheng Gu, Mengyuan Sun, Yidong Wang, Fandong Meng, Jie Zhou, Shikun Zhang, Wei Ye*. Joint Optimization of Training Data and Policy in RLHF. ACL'26 (Findings) 
+Peiyang Liu, Ziqiang Cui, Xi Wang, Di Liang, Wei Ye*. Chain of Evidence: Pixel-Level Visual Attribution for Iterative Retrieval-Augmented Generation Download PDF. SIGIR'26 (Full Paper, CCF Rank A)
+Peiyang Liu, Qiang Yan, Ziqiang Cui, Di Liang, Xi Wang, Wei Ye*. Beyond Semantic Relevance: Counterfactual Risk Minimization for Robust Retrieval-Augmented Generation. SIGIR'26 (Full Paper, CCF Rank A)
 Zhengran Zeng#, Ruikai Shi#, Keke Han, Yixin Li, Kaicheng Sun, Yidong Wang, Zhuohao Yu, Rui Xie*, Wei Ye*, Shikun Zhang*. SWR-Bench: Assessing LLM Performance in Real-World Code Review Comment Generation. FSE'26 (CCF Rank A, Full Paper)
 Hongrui Jia#, Jitong Liao#, Xi Zhang#, Haiyang Xu*, Tianbao Xie, Chaoya Jiang, Ming Yan, Si Liu, Wei Ye*, Fei Huang. OSWorld-MCP: Benchmarking MCP Tool Invocation In Computer-Use Agents. ICLR'26 
 Yidong Wang#, Yunze Song#, Tingyuan Zhu, Xuanwang Zhang, Zhuohao Yu, Hao Chen, Chiyu Song, Qiufeng Wang, Cunxiang Wang, Zhen Wu, Xinyu Dai, Yue Zhang, Wei Ye*, Shikun Zhang*. TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them. ICLR'26 
