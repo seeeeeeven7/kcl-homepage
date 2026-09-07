@@ -1,0 +1,4 @@
+在papers.txt中更新文章，运行generate.py
+目前是在https://dash.cloudflare.com/上建了一个部署站点，将images/, js/, index.css, index.html weiye.html打包上传后部署，并将index.html和weiye.html的链接放在学校平台的iframe中。
+
+之前的方法是直接更新学校平台对应页面的模板（后因为模板长度放不下完整的html放弃）

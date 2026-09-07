@@ -1,3 +1,8 @@
+Zhengran Zeng#, Yixin Li#, Rui Xie*, Wei Ye*, Shikun Zhang*. AttnCompress: Dynamic Attention-Guided Trajectory Compression for Software Engineering Agents. ISSTA'26 (CCF Rank A, Full Paper).
+Mengyuan Sun#, Yu Li#, Zhuohao Yu, Shikun Zhang, Wei Ye*. Support Vector Rubrics: Closing the Gap Between Self-Generated and Human Rubrics. EMNLP'26 (CCF Rank B, Full Paper)
+Yuxiao Luo#, Da Li#, Mingjie Zhang#, Zhentao He, Shikun Zhang, Wei Ye*. SHIFT: Self-reconstruction Harnesses Implicit Fine-grained Thinking for Retrieval Download PDF EMNLP'26 (CCF Rank B, Full Paper)
+Qi Guo, Jianing Wang*, Deyang Kong, Xiangyu Xi, Jianfei Zhang, Yi Lu, Jingang Wang, Wei Wang, Shikun Zhang, Wei Ye*. OPE: Overcoming Information Saturation in Parallel Thinking via Outline-Guided Path Exploration. EMNLP'26 (Findings)
+Yi Lu#, Deyang Kong#, Jianing Wang, Linsen Guo, Xue Wang, Qi Guo, Tao Gui*, Xuanjing Huang, Wei Ye*, Shikun Zhang, Wei Wang*. Adaptive Test-Time Compute Allocation for Block Diffusion Language Models in Complex Reasoning. EMNLP'26 (Findings)
 Xiaoling Zhou, Shuaiyu Zhou, Zhemg Lee, Tao Chen, Xirui Li, Peng Chen, Jie Jiang, Wei Ye*, Shikun Zhang*. Tailoring the Training: Difficulty-Aware Learning Strategy Allocation for Large Language Models. ICML'26 (CCF Rank A, Full Paper)
 Hongrui Jia, Chaoya Jiang, Yongrui Heng, Shikun Zhang, Wei Ye*. From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models. ICML'26 (CCF Rank A, Full Paper)
 Weizheng Gu#, Chengze Li#, Zhuohao Yu#, Mengyuan Sun, Zhibang Yang, Wei Wang, Hongrui Jia, Shikun Zhang, Wei Ye*. What Do Agents Learn from Trajectory-SFT: Semantics or Interfaces?  ICML'26 (CCF Rank A, Full Paper)
